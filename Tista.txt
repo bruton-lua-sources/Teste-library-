@@ -166,7 +166,7 @@ local vu7 = {
 			280,
 		},
 		TabSize = 160,
-		Theme = "NightGloColorw",
+		Theme = "CelestialRift",
 	},
 	Settings = {},
 	Connection = {},
@@ -3181,4 +3181,5 @@ function vu7.MakeWindow(_, P197)
 end
 
 return vu7
+
 
