@@ -96,8 +96,8 @@ local vu7 = {
 			["Color Text"] = Color3.fromRGB(255, 255, 255),
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
 		},
-		NightGlow = {
-			["Color Hub 1"] = ColorSequence.new({
+		NightGloColorw = {
+			[" Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0, Color3.fromRGB(25, 25, 25)),
 				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(32.5, 32.5, 32.5)),
 				ColorSequenceKeypoint.new(1, Color3.fromRGB(25, 25, 25)),
@@ -166,7 +166,7 @@ local vu7 = {
 			280,
 		},
 		TabSize = 160,
-		Theme = "QuantumGlowGreen",
+		Theme = "NightGloColorw",
 	},
 	Settings = {},
 	Connection = {},
@@ -3181,3 +3181,4 @@ function vu7.MakeWindow(_, P197)
 end
 
 return vu7
+
