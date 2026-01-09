@@ -1,4 +1,13 @@
--- يلي يستخدمها دون اذني رح افضحه واخذت سكرين انا اول من يجيبها ويستخدمها ويعدل عليها كل شي موثق بسكرينات
+["Color Hub 1"] = ColorSequence.new({  
+            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 170, 90)),  
+            ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 140, 75)),  
+            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 90))  
+        }),  
+        ["Color Hub 2"] = Color3.fromRGB(0, 170, 90),  
+        ["Color Stroke"] = Color3.fromRGB(0, 120, 60),  
+        ["Color Theme"] = Color3.fromRGB(0, 0, 0),  
+        ["Color Text"] = Color3.fromRGB(10, 10, 10),  
+        ["Color Dark Text"] = Color3.fromRGB(5, 5, 5)-- يلي يستخدمها دون اذني رح افضحه واخذت سكرين انا اول من يجيبها ويستخدمها ويعدل عليها كل شي موثق بسكرينات
 game:GetService("MarketplaceService")
 local vu1 = game:GetService("UserInputService")
 local vu2 = game:GetService("TweenService")
@@ -145,15 +154,15 @@ local vu7 = {
 		},
 		Orange = {
 			["Color Hub 1"] = ColorSequence.new({  
-            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 120)),  
-            ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 200, 90)),  
-            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 120))  
+            ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 170, 90)),  
+            ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 140, 75)),  
+            ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 170, 90))  
         }),  
-        ["Color Hub 2"] = Color3.fromRGB(0, 255, 120),  
-        ["Color Stroke"] = Color3.fromRGB(0, 180, 80),  
+        ["Color Hub 2"] = Color3.fromRGB(0, 170, 90),  
+        ["Color Stroke"] = Color3.fromRGB(0, 120, 60),  
         ["Color Theme"] = Color3.fromRGB(0, 0, 0),  
-        ["Color Text"] = Color3.fromRGB(255, 255, 255),  
-        ["Color Dark Text"] = Color3.fromRGB(200, 200, 200)
+        ["Color Text"] = Color3.fromRGB(10, 10, 10),  
+        ["Color Dark Text"] = Color3.fromRGB(5, 5, 5)
 		},
 	},
 	Info = {
@@ -3180,6 +3189,7 @@ function vu7.MakeWindow(_, P197)
 end
 
 return vu7
+
 
 
 
