@@ -1,5 +1,6 @@
--- يلي يستخدمها دون اذني رح افضحه واخذت سكرين انا اول من يجيبها ويستخدمها ويعدل عليها كل شي موثق بسكرينات
+
 game:GetService("MarketplaceService")
+
 local vu1 = game:GetService("UserInputService")
 local vu2 = game:GetService("TweenService")
 local vu3 = game:GetService("HttpService")
@@ -95,8 +96,8 @@ local vu7 = {
 			["Color Text"] = Color3.fromRGB(255, 255, 255),
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
 		},
-		NightGloColorw = {
-			[" Hub 1"] = ColorSequence.new({
+		NightGlow = {
+			["Color Hub 1"] = ColorSequence.new({
 				ColorSequenceKeypoint.new(0, Color3.fromRGB(25, 25, 25)),
 				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(32.5, 32.5, 32.5)),
 				ColorSequenceKeypoint.new(1, Color3.fromRGB(25, 25, 25)),
@@ -132,18 +133,6 @@ local vu7 = {
 			["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
 		},
 		QuantumGlowGreen = {
-			["Color Hub 1"] = ColorSequence.new({
-				ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 128, 255)),
-				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(102, 0, 204)),
-				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 128)),
-			}),
-			["Color Hub 2"] = Color3.fromRGB(20, 20, 20),
-			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
-			["Color Theme"] = Color3.fromRGB(255, 255, 255),
-			["Color Text"] = Color3.fromRGB(255, 255, 255),
-			["Color Dark Text"] = Color3.fromRGB(44, 209, 44),
-		},
-		Orange = {
 			["Color Hub 1"] = ColorSequence.new({  
             ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 170, 90)),  
             ColorSequenceKeypoint.new(0.50, Color3.fromRGB(0, 140, 75)),  
@@ -155,6 +144,18 @@ local vu7 = {
         ["Color Text"] = Color3.fromRGB(10, 10, 10),  
         ["Color Dark Text"] = Color3.fromRGB(5, 5, 5)
 		},
+		Orange = {
+			["Color Hub 1"] = ColorSequence.new({
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(199, 38, 38)),
+				ColorSequenceKeypoint.new(0.5, Color3.fromRGB(199, 38, 38)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(70, 40, 0)),
+			}),
+			["Color Hub 2"] = Color3.fromRGB(188, 123, 0),
+			["Color Stroke"] = Color3.fromRGB(200, 130, 0),
+			["Color Theme"] = Color3.fromRGB(165, 106, 0),
+			["Color Text"] = Color3.fromRGB(243, 243, 243),
+			["Color Dark Text"] = Color3.fromRGB(180, 180, 180),
+		},
 	},
 	Info = {
 		Version = "1.1.0",
@@ -165,7 +166,7 @@ local vu7 = {
 			280,
 		},
 		TabSize = 160,
-		Theme = "Orange",
+		Theme = "QuantumGlowGreen",
 	},
 	Settings = {},
 	Connection = {},
@@ -1994,7 +1995,7 @@ function vu7.MakeWindow(_, P197)
 				Position = UDim2.new(1, -10, 0.5),
 				AnchorPoint = Vector2.new(1, 0.5),
 				BackgroundTransparency = 1,
-				Image = "rbxassetid://10709791437",
+				Image = "rbxassetid://10723396107",
 			})
 			vu325.Activated:Connect(function()
 				vu83:FireCallback(vu324)
@@ -3180,10 +3181,3 @@ function vu7.MakeWindow(_, P197)
 end
 
 return vu7
-
-
-
-
-
-
-
